@@ -1,0 +1,19 @@
+# 作業系統與編輯器的暫存檔
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+~$*
+
+# Google Drive 同步暫存
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# 🛑 學生資料一律不進版控（規範第五節第 1 條）
+# 點名的姓名與照片只存在那台電腦的瀏覽器裡（localStorage / IndexedDB），
+# 本來就不會產生檔案；但萬一有人把匯出的備份放進這個資料夾，
+# 這幾條可以擋下來，不會被 commit 上去。
+*名單*.json
+*學生*.json
+*名單*.csv
+*學生*.csv
